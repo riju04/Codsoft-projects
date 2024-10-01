@@ -1,0 +1,92 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.menu-bar {
+  background-color: #222;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem 2rem;
+  height: auto;
+}
+.menu-bar a {
+  text-decoration: none;
+  color: #fff;
+  padding: 0 1rem;
+  font-size: 1.2rem;
+  font-weight: bold;
+  transition: color 0.7s;
+}
+.menu-bar a:hover {
+  color: rgb(208, 0, 0);
+}
+main {
+  background-image: url("amd.jpg");
+  min-height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 3rem;
+}
+.header1 {
+  text-align: center;
+  font-size: 2rem;
+  font-family: sans-serif;
+  color: white;
+  letter-spacing: 0.2rem;
+}
+.header2 {
+  text-align: center;
+  font-size: 4rem;
+  font-family: sans-serif;
+  color: white;
+  padding-top: 1rem;
+}
+
+.paragraph {
+  font-size: 1.2rem;
+  font-family: Courier;
+  font-weight: bold;
+  margin: 2rem 0;
+  background: linear-gradient(45deg, red, #b68755, #4a93a0);
+  --webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+.button {
+  background-color: #fff;
+  padding: 1rem 2rem;
+  text-decoration: none;
+  color: #000;
+  font-size: 1.2rem;
+  font-weight: bold;
+  border-radius: 0.2rem;
+  transition: all 0.5s;
+}
+.button:hover {
+  background-color: #000;
+  color: #fff;
+}
+.footer {
+  background-color: #000;
+  padding: 3rem 3rem 0 3rem;
+}
+.icons {
+  display: flex;
+  justify-content: center;
+  font-size: 2rem;
+}
+.icons a {
+  padding: 0 1rem;
+  transition: all 0.5s;
+}
+.icons a:hover {
+  transform: rotateY(360deg) scale(2);
+}
+.copyright {
+  padding: 1rem 0;
+  color: #fff;
+  text-align: center;
+}
